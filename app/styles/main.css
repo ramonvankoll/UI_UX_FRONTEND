@@ -1,0 +1,66 @@
+@font-face {
+    font-family: bold;
+    src: url(../fonts/SourceCodePro-Bold.otf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../fonts/SourceCodePro-Regular.otf);
+}
+
+html
+body{
+  font-family: regular;
+	background-color: #77C4D7;
+}
+
+.home {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gorilla {
+  width: 33%;
+  height: auto;
+}
+
+h1 {
+  color: black;
+  font-family: bold;
+}
+h2 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  color: white;
+  font-family: bold;
+}
+
+p {
+  color: white;
+  font-family: regular;
+}
+
+form{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  color: white;
+
+}
+
+.dotbox{
+  border:none;
+  border-bottom:thin dashed black;
+  outline:none;
+}

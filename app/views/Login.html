@@ -1,0 +1,40 @@
+<div class="home">
+<div class="home">
+<div class="figure" align="middle">
+  <p><img src="images/codegorilla.png" width="auto"
+    height="350" alt="codegorilla">
+  <p>
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="styles/login.css">
+
+<form>
+
+<div class="home">
+<div class="input-field">
+  <label>
+    User-name:
+  </label>
+  <input type="text" size=40 name="username" ng-model="user.name" />
+</div>
+
+<div class="home">
+<div class="input-field">
+  <label>
+    Last-name:
+  </label>
+  <input type="password" size=40 name="password" ng-model="user.password"/>
+</div>
+
+<div class="home">
+<div class="button-group">
+  <button ng-click="login.submit(user)">Send</button>
+  <a ng-href="registration">Registration</a>
+  <br>
+  <a ng-href="forgotpassword">forgot password?</a>
+
+
+</div>
+
+</form>
